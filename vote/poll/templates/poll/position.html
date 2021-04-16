@@ -1,0 +1,16 @@
+{% extends "poll/base.html" %}
+
+{% block title %}Vote{% endblock %}
+
+{% block content %}
+<div style="height: 517px;">
+  <h2>Available Position For Vote</h2>
+  <ul>
+    {% for i in obj %}
+      <li><a href="{% url 'candidate' i.id %}">{{i.title}}</a></li>
+    {% empty %}
+      <p>No Positions Available</p>
+    {% endfor %}
+  </ul>
+</div>
+{% endblock %}

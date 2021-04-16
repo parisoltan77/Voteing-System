@@ -1,0 +1,3 @@
+username and password for superuser (admin) of panel    
+
+user:ps pass:123

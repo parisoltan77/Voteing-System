@@ -1,0 +1,14 @@
+{% extends "poll/cadidate_base.html" %}
+{% block title %}Candidate Edit Profile{% endblock %}
+
+{% block candidate_content %}
+<div class="jumbotron">
+    <h2>Update Profile</h2>
+
+    <form action="" enctype="multipart/form-data" method="POST">
+      {% csrf_token %}
+      {{form.as_p}}
+      <input type="submit" class="btn btn-primary btn-sm" value="Update">
+    </form>
+  </div>
+{% endblock %}

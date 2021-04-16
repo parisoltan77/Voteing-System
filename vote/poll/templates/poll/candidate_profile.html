@@ -1,0 +1,17 @@
+{% extends "poll/cadidate_base.html" %}
+{% block title %}Candidate Profile{% endblock %}
+
+{% block candidate_content %}
+<div class="jumbotron prodetail">
+  <img src="{{ obj.profile_pic.url }}" width="220" height="280" class="img-fluid">
+      <h1>Name:</h1>
+      <p>{{ obj.user.first_name }} {{ obj.user.last_name }}</p>
+      <h2>Position:</h2>
+      <p>{{ obj.position }}</p>
+      <h2>Bio:</h2>
+      <p>{{obj.bio}}</p>
+      <h2>Resume:</h2>
+      <p>{{obj.resume}}</p>
+</div>
+
+{% endblock %}

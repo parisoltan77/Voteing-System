@@ -1,0 +1,20 @@
+{% extends "poll/base.html" %}
+
+{% block title %}Voting System{% endblock %}
+
+{% block content %}
+
+<div>
+  {% if messages %}
+    {% for message in messages %}
+    <div class="alert alert-success" role="alert">
+      {{ message }}
+    </div>
+    {% endfor %}
+  {% endif %}
+<div class="welcome">
+  <p class="shoar">Maintain ballot secrecy with secure and efficient online elections</p>
+</div>
+</div>
+
+{% endblock %} 

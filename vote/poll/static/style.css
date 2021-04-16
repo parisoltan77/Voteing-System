@@ -1,0 +1,148 @@
+.welcome{
+    background-image: url("./background.jpg");
+    background-size: cover;
+    height: 570px;
+    width: 100%;
+    background-repeat: no-repeat ;
+}
+.contain{
+    width: 80%;
+    margin: 0 auto;
+}
+#toplogo{
+    width: 70px;
+    height: 70px;
+    margin-top: -15px;
+}
+
+.shoar{
+font-size: 32px;
+text-align: center;
+color: rgb(162, 62, 61);
+font-weight: bold;
+
+}
+.footer {
+    display: flex;
+    height: 250px;
+    background-color: #343a40;
+    padding: 20px;
+    align-items: center;
+}
+.footer a{
+    color: #B8B8B8;
+    text-decoration: none;
+}
+.footer a:hover{
+    color: white;
+    text-decoration: none;
+}
+.part1,.part2,.part3,.part4,.part5{
+    width: 20%;
+    text-align: center;
+}
+.part5{
+    border-right: none;
+}
+.part1 img{
+    width: 150px;
+    height: 150px;
+}
+.part2 ul{
+    list-style-type: none;
+    list-style-position:inside;
+    padding: 0;
+    margin: 0;
+}
+.part2 ul li{
+    list-style-position: inside;
+    padding: 20px 0;
+    margin: 0;
+}
+.part5{
+    display: flex;
+    justify-content: space-evenly;
+}
+.logoHolder {
+    display: block;
+    background-color: white;
+    width: 60px;
+    height: 60px;
+    border-radius: 50px;
+    border: 8px double black;
+    position: relative;
+}
+.fa-facebook-f {
+    padding: 7px;
+    position: absolute;
+    color: black;
+    left: 0;
+    width: 45px ;
+    height: 45px ;
+    border-radius: 50%;
+}
+
+
+.fa-twitter {
+    padding: 4px;
+    position: absolute;
+    color: black;
+    left: 0;
+    font-size: 2.3em;
+}
+
+.fa-instagram {
+    padding: 6px;
+    position: absolute;
+    color: black;
+    left: 0;
+    font-size: 2.3em;
+}
+.logoHolder:hover{
+    background-color: black;
+    border-color: white;
+    color: white;
+}
+
+.fa-facebook-f:hover {
+    color: white;
+    background-color: white;
+}
+
+
+.fa-twitter:hover {
+    color: white;
+}
+
+.fa-instagram:hover {
+    color: white;
+}
+
+@media screen and (max-width:580px){
+    .footer{
+        flex-direction: column;
+        height: 100%;
+        justify-content: center;
+    }
+    .part1,.part2,.part3,.part4,.part5{
+        width: 100%;
+        padding: 15px 0px;
+        border-bottom: 2px solid white;
+        border-right: none;
+        height: 100%;
+    }
+    .welcome{
+        background-size: contain;
+    }
+    .part5{
+        border-bottom: none;
+        padding-top: 30px;
+    }
+}
+.prodetail{
+    text-align: center;
+}
+.prodetail img{
+    width: 300px;
+    height: 200px;
+}

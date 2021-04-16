@@ -1,0 +1,10 @@
+Username and passwords for Candidates login
+
+user:rohani
+ pass:emperrorsoroush
+
+user:Ajahromi 
+pass:programmerparinaz
+user:ghalibaf 
+pass:adminparinaz123
+user:larijani pass:psadmin456l
